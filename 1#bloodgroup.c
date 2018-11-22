@@ -6,7 +6,7 @@ void main()
 	printf("WELCOME TO SOFTWARE ENGINEER PROGRAM!! \n");
   do
   {
-    printf("What is your Name? ");
+    printf("What is your full Name ? ");
     scanf("%s", Name);
     do
     {
@@ -45,5 +45,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Goodbye Software Engineer\n");
+  printf("Goodbye see you again\n");
 }
